@@ -55,6 +55,8 @@ def test_adam_keeps_pruned_weights_exactly_zero():
     for _ in range(50):
         opt.zero_grad(); _loss(w, np.ones((1, 1))).backward(); opt.step()
         assert w.data[0, 1] == 0.0  # exact, every step
+        # state itself must be clean, not just the weight re-zeroed afterwards
+        assert opt.m[id(w)][0, 1] == 0.0 and opt.v[id(w)][0, 1] == 0.0
 
 
 def test_revived_weight_starts_with_clean_optimizer_state():
@@ -69,9 +71,11 @@ def test_revived_weight_starts_with_clean_optimizer_state():
     k = id(w)
     assert opt.m[k][0, 1] == 0 and opt.v[k][0, 1] == 0 and opt.t[k][0, 1] == 0
     assert w.data[0, 1] == 0.0  # revived at exactly zero
+    w.data[0, 1] = 1.0  # give it a non-zero gradient (loss = w^2/2 has g = 0 at w = 0)
     opt.zero_grad(); _loss(w, np.ones((1, 1))).backward(); opt.step()
-    # first Adam step with fresh state has magnitude ~lr (bias-corrected), not inflated
-    assert abs(w.data[0, 1]) <= 0.1 * 1.0001
+    # fresh state => t=1, mhat=g, vhat=g^2 => first step is exactly lr * sign(g).
+    # A stale global step count would give a different (smaller) step.
+    assert abs(w.data[0, 1] - 0.9) < 1e-6
 
 
 def test_sgd_momentum_state_cleared_on_prune():
@@ -80,6 +84,13 @@ def test_sgd_momentum_state_cleared_on_prune():
     for _ in range(5):
         opt.zero_grad(); _loss(w, np.ones((1, 1))).backward(); opt.step()
     opt.set_mask(w, np.array([[1.0, 0.0]]))
+    assert opt.v[id(w)][0, 1] == 0.0  # velocity cleared at prune time
     for _ in range(20):
         opt.zero_grad(); _loss(w, np.ones((1, 1))).backward(); opt.step()
     assert w.data[0, 1] == 0.0
+    opt.set_mask(w, np.array([[1.0, 1.0]]))  # revive at 0: first step must carry no old momentum
+    w.data[0, 1] = 1.0
+    opt.zero_grad(); _loss(w, np.ones((1, 1))).backward()
+    g = w.grad[0, 1]
+    opt.step()
+    assert abs(w.data[0, 1] - (1.0 - 0.1 * g)) < 1e-12

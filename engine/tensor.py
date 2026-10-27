@@ -60,9 +60,14 @@ class Tensor:
             topo.append(t)
 
         build(self)
+        # intermediate nodes start fresh each call (leaves keep accumulating, as in PyTorch)
+        for t in topo:
+            if t.parents:
+                t.grad = None
         self.grad = np.ones_like(self.data) if grad is None else np.asarray(grad, dtype=np.float64)
         for t in reversed(topo):
-            t._backward()
+            if t.grad is not None:  # no gradient reached this node (e.g. constant branch)
+                t._backward()
 
     # ---- element-wise ---------------------------------------------------
     def __add__(self, other):

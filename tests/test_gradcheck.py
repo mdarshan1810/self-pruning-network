@@ -75,3 +75,18 @@ def test_mlp_composition():
     y = np.array([0, 1, 2, 1, 0])
     check(lambda x, w1, b1, w2: softmax_cross_entropy(((x @ w1 + b1).relu() @ w2), y),
           A(5, 4), A(4, 6) * 0.5, A(6) + 0.05, A(6, 3) * 0.5)
+
+
+def test_backward_twice_accumulates_only_at_leaves():
+    a = Tensor(np.array([1.0, 2.0]), requires_grad=True)
+    loss = (a * a).sum()
+    loss.backward()
+    loss.backward()
+    assert np.allclose(a.grad, [4.0, 8.0])  # 2 x [2, 4], not double-counted intermediates
+
+
+def test_constant_branch_through_nonlinearity():
+    x = Tensor(np.array([[1.0, -2.0]]))           # no grad needed
+    w = Tensor(np.array([[0.5], [0.3]]), requires_grad=True)
+    (x.relu() @ w).sum().backward()
+    assert np.allclose(w.grad, [[1.0], [0.0]])
