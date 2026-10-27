@@ -1,0 +1,4 @@
+numpy
+matplotlib
+pytest
+# scikit-learn  # only needed for MNIST loading (data loading only)

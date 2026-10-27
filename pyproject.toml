@@ -1,0 +1,10 @@
+[project]
+name = "self-pruning-network"
+version = "0.1.0"
+description = "NumPy autodiff engine + self-pruning MLP (AQUA challenge)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+mnist = ["scikit-learn"]  # used ONLY to load the dataset, never for training
