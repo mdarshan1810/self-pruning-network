@@ -11,4 +11,10 @@ Scikit-learn is used **only to load MNIST** (data loading), never for training, 
 - Gradient checks:        `pytest tests -q`
 - Part 2 training:        `python -m train.train_dense`
 - Part 3 self-pruning:    `python -m train.train_prune --sparsity 0.9 --criterion saliency`
-- Part 4 Pareto sweep:    TODO
+- Part 4 Pareto sweep:    `python -m train.sweep` (~6 min; writes results/)
+
+## Part 4 results (see results/)
+- `pareto.png`, `sweep_raw.json`, `summary.json`: accuracy vs sparsity, 20 seeds, saliency vs magnitude.
+- `CLAIM.md`: falsifiable claim, generated from the numbers. Pre-specified 90% comparison is a **null result**.
+- `cost.json`: FLOPs fall ~1/(1-sparsity), but the NumPy sparse path is **slower in wall-clock** than dense BLAS
+  (gather/reduceat overhead). FLOPs/active-params are the honest cost metric here; this is not a real speedup.

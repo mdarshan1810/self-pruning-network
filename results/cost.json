@@ -1,0 +1,47 @@
+[
+ {
+  "target": 0.0,
+  "active_params": 4544,
+  "dense_params": 4544,
+  "sparse_flops": 2326528,
+  "dense_flops": 2326528,
+  "sparse_us": 12460.050000227056,
+  "dense_zeros_us": 149.19850043952465
+ },
+ {
+  "target": 0.5,
+  "active_params": 2272,
+  "dense_params": 4544,
+  "sparse_flops": 1163264,
+  "dense_flops": 2326528,
+  "sparse_us": 4187.508999602869,
+  "dense_zeros_us": 138.4904998121783
+ },
+ {
+  "target": 0.75,
+  "active_params": 1136,
+  "dense_params": 4544,
+  "sparse_flops": 581632,
+  "dense_flops": 2326528,
+  "sparse_us": 2114.014000399038,
+  "dense_zeros_us": 132.25600006990135
+ },
+ {
+  "target": 0.9,
+  "active_params": 455,
+  "dense_params": 4544,
+  "sparse_flops": 232960,
+  "dense_flops": 2326528,
+  "sparse_us": 1278.079500189051,
+  "dense_zeros_us": 181.414500111714
+ },
+ {
+  "target": 0.95,
+  "active_params": 227,
+  "dense_params": 4544,
+  "sparse_flops": 116224,
+  "dense_flops": 2326528,
+  "sparse_us": 268.80100020207465,
+  "dense_zeros_us": 140.69150027353317
+ }
+]
