@@ -133,8 +133,8 @@ so revived weights that are then dropped lose on merit, not by construction.
 
 Separately, scores were all zero before the first prune event (dense_grad is None while the mask is all
 ones), so the first event cut arbitrary tied weights for both criteria. `accumulate()` now falls back to
-p.grad, which equals dL/dW_eff in that case. This changes the no-regrow baseline too, so the regrow 0.0 rows
-here do not match results/summary.json, which predates that fix.
+p.grad, which equals dL/dW_eff in that case. This changed the no-regrow baseline too; results/summary.json
+was re-run after the fix, so its saliency rows match the regrow 0.0 rows here.
 """
 
 

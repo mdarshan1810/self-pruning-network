@@ -95,7 +95,8 @@ pruned weights at exactly 0 and revives with clean state.
 
 Measured (`results/cost.json`, batch of 256, 64x64 MLP): FLOPs fall to 0.10x at 90%
 sparsity, but the hand-written sparse forward path is **slower** in wall-clock than
-dense BLAS (about 270-12,000 us vs about 140 us). It is not a real speedup.
+dense BLAS (about 340-15,000 us vs about 150-300 us, depending on sparsity). It is
+not a real speedup.
 
 Bottlenecks, in rough order of importance:
 - **Sparse path uses NumPy gather + `reduceat`.** Gathers (`x[:, rows]`) allocate a
@@ -150,5 +151,11 @@ This is a design sketch; none of it is implemented or benchmarked here.
   vs no regrowth includes 0 (e.g. 90%, frac 0.1: -0.6 pts [-1.7, +0.4]).
 - Same hyperparameters for both criteria; no tuning. Reported accuracy is final-epoch
   test accuracy with no validation split used for selection.
+- The spirals difficulty (5 arms, noise 0.45) was chosen after a 3-seed probe looking
+  at test accuracy, because the default 3-arm spirals hit 100% and could not show any
+  accuracy cost. That probe looked at test data. The MNIST settings were fixed using
+  seed 0 only, which is excluded from the MNIST sweep.
+- The spirals test set is small (300 points), so per-run test accuracy is noisy
+  (roughly +/-3 pts epoch to epoch). Conclusions rest on 20 paired seeds, not single runs.
 - The 95% result was replicated once (MNIST, pre-specified). It was not tested on a
   third dataset or with other architectures.
