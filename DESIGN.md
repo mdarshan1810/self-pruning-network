@@ -35,14 +35,27 @@ Limits of the estimate (honest caveats):
 - It scores weights one at a time. Removing many weights at once ignores
   interactions between them.
 
-Empirical status (`results/CLAIM.md`, 20 paired seeds, 5-arm noisy spirals):
-- At 90% sparsity saliency and magnitude are **tied** (paired diff -0.1 pts,
-  95% CI [-1.6, +1.2]). The criterion we derived did not help there.
-- At 95% saliency is ahead by +8.4 pts (CI [+4.1, +12.8], 15/20 seeds). This was
-  noticed after seeing the data, so it is exploratory and needs fresh seeds or a
-  second dataset before it is treated as established.
-- At 50% magnitude is slightly better (-0.67 pts, CI [-1.22, -0.12]); with several
-  comparisons this may be chance. We did not tune either criterion separately.
+Empirical status (20 paired seeds per dataset, paired 95% bootstrap CIs):
+
+| sparsity | spirals (`results/CLAIM.md`) | MNIST 10k subset (`results/MNIST.md`) |
+|---|---|---|
+| 50% | +0.17 [-0.40, +0.73] | +0.10 [-0.01, +0.20] |
+| 75% | +0.27 [-0.38, +0.90] | **-0.41 [-0.55, -0.28]** |
+| 90% | **+1.45 [+0.55, +2.35]** (pre-specified) | **-0.41 [-0.63, -0.20]** |
+| 95% | **+8.00 [+2.67, +12.87]** (post hoc) | **+0.59 [+0.29, +0.89]** (pre-specified replication) |
+
+(saliency minus magnitude, test accuracy points)
+
+- The one result that held up under a pre-specified test on a second dataset with
+  fresh seeds: **at 95% sparsity saliency beats magnitude** on both datasets.
+- It is **not** uniformly better. On MNIST at 75-90% magnitude wins by about 0.4 pts.
+  A plausible reason: with a well-trained dense net and a short ramp, |w| is a stable
+  ranking, while the first-order |w*g| is noisy where gradients are small (see the
+  caveat above). This explanation is untested.
+- History: the first spirals sweep reported a null at 90%. It ran with a bug where
+  scores were zero until the first prune event, so the first cut was arbitrary for
+  both criteria. Fixing it (and re-running unchanged settings) changed 90% to a win.
+- Same hyperparameters for both criteria; nothing tuned per criterion.
 
 ## 2. The gradient of a masked weight
 
@@ -125,10 +138,17 @@ This is a design sketch; none of it is implemented or benchmarked here.
 
 ## Limitations of this submission
 
-- Single, small synthetic dataset (spirals, 2D input). Results may not transfer;
-  MNIST was not run.
-- Regrowth is implemented (`Pruner(regrow_frac=...)`) but neither tested nor
-  measured, so no claim is made about it.
+- Two small datasets only: 2D spirals and a fixed 10k/2k MNIST subset with a
+  one-hidden-layer MLP (784-128-10) and 12 epochs. Absolute MNIST accuracy (~95% dense)
+  is below what a longer-trained model reaches.
+- Regrowth (`Pruner(regrow_frac=...)`) was close to a no-op as first written:
+  revived weights start at 0, score ~0, and at fixed sparsity only 0.4-0.6% survived
+  the next prune event. It now has a 1-event grace period, a reset bias-corrected
+  score EMA, and grows only weights with non-zero recent gradient (`tests/test_regrow.py`).
+  Revived weights now train and some are kept on merit, but the 20-seed ablation
+  (`results/REGROW.md`) shows **no reliable accuracy effect**: every paired 95% CI
+  vs no regrowth includes 0 (e.g. 90%, frac 0.1: -0.6 pts [-1.7, +0.4]).
 - Same hyperparameters for both criteria; no tuning. Reported accuracy is final-epoch
   test accuracy with no validation split used for selection.
-- The exploratory 95% result has not been replicated on fresh seeds.
+- The 95% result was replicated once (MNIST, pre-specified). It was not tested on a
+  third dataset or with other architectures.

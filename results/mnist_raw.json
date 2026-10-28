@@ -1,0 +1,1853 @@
+{
+ "meta": {
+  "dataset": "mnist_784 (OpenML)",
+  "n_train": 10000,
+  "n_test": 2000,
+  "n_features": 784,
+  "subset_seed": 0,
+  "scaling": "x/255 -> [0,1]",
+  "cfg": {
+   "epochs": 12,
+   "batch": 128,
+   "lr": 0.001,
+   "hidden": [
+    128
+   ],
+   "n_train": 10000,
+   "n_test": 2000
+  },
+  "seeds": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119
+  ],
+  "primary": 0.95,
+  "workers": 7,
+  "wall_minutes": 17.85032630166582,
+  "n_runs": 200,
+  "mean_seconds": 37.09892599399784,
+  "n_params": 101632,
+  "pruner_sha_start": "4d8b72c4a03d925a",
+  "pruner_sha_end": "4d8b72c4a03d925a",
+  "pruner_preflight": true
+ },
+ "runs": [
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 100,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 31.704277000040747,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 101,
+   "achieved": 0.0,
+   "test_acc": 0.9475,
+   "seconds": 30.944621999980882,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 102,
+   "achieved": 0.0,
+   "test_acc": 0.9455,
+   "seconds": 31.18391410005279,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 103,
+   "achieved": 0.0,
+   "test_acc": 0.951,
+   "seconds": 30.9469082999276,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 104,
+   "achieved": 0.0,
+   "test_acc": 0.9465,
+   "seconds": 32.0978758999845,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 105,
+   "achieved": 0.0,
+   "test_acc": 0.9505,
+   "seconds": 32.04481719993055,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 106,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 31.781243700068444,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 107,
+   "achieved": 0.0,
+   "test_acc": 0.948,
+   "seconds": 31.24379650002811,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 108,
+   "achieved": 0.0,
+   "test_acc": 0.945,
+   "seconds": 34.30457789998036,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 109,
+   "achieved": 0.0,
+   "test_acc": 0.9435,
+   "seconds": 34.31018839997705,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 110,
+   "achieved": 0.0,
+   "test_acc": 0.9485,
+   "seconds": 33.27428520005196,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 111,
+   "achieved": 0.0,
+   "test_acc": 0.951,
+   "seconds": 34.28742519998923,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 112,
+   "achieved": 0.0,
+   "test_acc": 0.9525,
+   "seconds": 30.855891099898145,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 113,
+   "achieved": 0.0,
+   "test_acc": 0.9505,
+   "seconds": 32.17983199993614,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 114,
+   "achieved": 0.0,
+   "test_acc": 0.953,
+   "seconds": 32.24289549991954,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 115,
+   "achieved": 0.0,
+   "test_acc": 0.952,
+   "seconds": 31.609545000013895,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 116,
+   "achieved": 0.0,
+   "test_acc": 0.953,
+   "seconds": 30.747546699945815,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 117,
+   "achieved": 0.0,
+   "test_acc": 0.952,
+   "seconds": 30.95415010000579,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 118,
+   "achieved": 0.0,
+   "test_acc": 0.954,
+   "seconds": 32.55255409993697,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.0,
+   "seed": 119,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 32.084515399998054,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 100,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 31.645822799997404,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 101,
+   "achieved": 0.0,
+   "test_acc": 0.9475,
+   "seconds": 31.92637439991813,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 102,
+   "achieved": 0.0,
+   "test_acc": 0.9455,
+   "seconds": 32.464588699978776,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 103,
+   "achieved": 0.0,
+   "test_acc": 0.951,
+   "seconds": 32.78201190009713,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 104,
+   "achieved": 0.0,
+   "test_acc": 0.9465,
+   "seconds": 32.224446000065655,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 105,
+   "achieved": 0.0,
+   "test_acc": 0.9505,
+   "seconds": 32.37514569994528,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 106,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 32.11033400008455,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 107,
+   "achieved": 0.0,
+   "test_acc": 0.948,
+   "seconds": 31.79594250000082,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 108,
+   "achieved": 0.0,
+   "test_acc": 0.945,
+   "seconds": 31.676966800005175,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 109,
+   "achieved": 0.0,
+   "test_acc": 0.9435,
+   "seconds": 31.666778700076975,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 110,
+   "achieved": 0.0,
+   "test_acc": 0.9485,
+   "seconds": 31.757607700070366,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 111,
+   "achieved": 0.0,
+   "test_acc": 0.951,
+   "seconds": 30.872443299973384,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 112,
+   "achieved": 0.0,
+   "test_acc": 0.9525,
+   "seconds": 30.940231200074777,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 113,
+   "achieved": 0.0,
+   "test_acc": 0.9505,
+   "seconds": 31.902398000005633,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 114,
+   "achieved": 0.0,
+   "test_acc": 0.953,
+   "seconds": 30.794604599941522,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 115,
+   "achieved": 0.0,
+   "test_acc": 0.952,
+   "seconds": 30.931974299950525,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 116,
+   "achieved": 0.0,
+   "test_acc": 0.953,
+   "seconds": 31.460499799926765,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 117,
+   "achieved": 0.0,
+   "test_acc": 0.952,
+   "seconds": 30.874355699983425,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 118,
+   "achieved": 0.0,
+   "test_acc": 0.954,
+   "seconds": 31.057688999921083,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.0,
+   "seed": 119,
+   "achieved": 0.0,
+   "test_acc": 0.9495,
+   "seconds": 30.992614799994044,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 100,
+   "achieved": 0.5,
+   "test_acc": 0.944,
+   "seconds": 32.16401259996928,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 101,
+   "achieved": 0.5,
+   "test_acc": 0.944,
+   "seconds": 32.53348069998901,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 102,
+   "achieved": 0.5,
+   "test_acc": 0.942,
+   "seconds": 33.62520119990222,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 103,
+   "achieved": 0.5,
+   "test_acc": 0.944,
+   "seconds": 33.216899499995634,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 104,
+   "achieved": 0.5,
+   "test_acc": 0.9435,
+   "seconds": 34.28268550010398,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 105,
+   "achieved": 0.5,
+   "test_acc": 0.9465,
+   "seconds": 34.44015010003932,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 106,
+   "achieved": 0.5,
+   "test_acc": 0.943,
+   "seconds": 33.60942850005813,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 107,
+   "achieved": 0.5,
+   "test_acc": 0.9455,
+   "seconds": 32.54659589997027,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 108,
+   "achieved": 0.5,
+   "test_acc": 0.943,
+   "seconds": 34.02682150003966,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 109,
+   "achieved": 0.5,
+   "test_acc": 0.945,
+   "seconds": 33.26399580005091,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 110,
+   "achieved": 0.5,
+   "test_acc": 0.9445,
+   "seconds": 32.852407500031404,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 111,
+   "achieved": 0.5,
+   "test_acc": 0.9425,
+   "seconds": 33.60670450003818,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 112,
+   "achieved": 0.5,
+   "test_acc": 0.9445,
+   "seconds": 33.370536000002176,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 113,
+   "achieved": 0.5,
+   "test_acc": 0.945,
+   "seconds": 33.65288519999012,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 114,
+   "achieved": 0.5,
+   "test_acc": 0.9475,
+   "seconds": 33.20059449994005,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 115,
+   "achieved": 0.5,
+   "test_acc": 0.9425,
+   "seconds": 33.03186510002706,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 116,
+   "achieved": 0.5,
+   "test_acc": 0.955,
+   "seconds": 33.925323600065894,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 117,
+   "achieved": 0.5,
+   "test_acc": 0.948,
+   "seconds": 33.445590999908745,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 118,
+   "achieved": 0.5,
+   "test_acc": 0.9495,
+   "seconds": 33.57383280002978,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.5,
+   "seed": 119,
+   "achieved": 0.5,
+   "test_acc": 0.9425,
+   "seconds": 33.770579899894074,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 100,
+   "achieved": 0.5,
+   "test_acc": 0.9475,
+   "seconds": 31.687478799954988,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 101,
+   "achieved": 0.5,
+   "test_acc": 0.9445,
+   "seconds": 31.913428600062616,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 102,
+   "achieved": 0.5,
+   "test_acc": 0.948,
+   "seconds": 32.121536100050434,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 103,
+   "achieved": 0.5,
+   "test_acc": 0.9475,
+   "seconds": 35.646469500032254,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 104,
+   "achieved": 0.5,
+   "test_acc": 0.9445,
+   "seconds": 35.71060930006206,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 105,
+   "achieved": 0.5,
+   "test_acc": 0.9475,
+   "seconds": 35.95851349993609,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 106,
+   "achieved": 0.5,
+   "test_acc": 0.944,
+   "seconds": 36.17150039994158,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 107,
+   "achieved": 0.5,
+   "test_acc": 0.9445,
+   "seconds": 35.73167519993149,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 108,
+   "achieved": 0.5,
+   "test_acc": 0.94,
+   "seconds": 36.40759580000304,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 109,
+   "achieved": 0.5,
+   "test_acc": 0.945,
+   "seconds": 36.565852199913934,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 110,
+   "achieved": 0.5,
+   "test_acc": 0.946,
+   "seconds": 36.17683390004095,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 111,
+   "achieved": 0.5,
+   "test_acc": 0.9455,
+   "seconds": 34.344184699933976,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 112,
+   "achieved": 0.5,
+   "test_acc": 0.9425,
+   "seconds": 36.21993170003407,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 113,
+   "achieved": 0.5,
+   "test_acc": 0.9425,
+   "seconds": 35.1774252000032,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 114,
+   "achieved": 0.5,
+   "test_acc": 0.949,
+   "seconds": 36.368288600002415,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 115,
+   "achieved": 0.5,
+   "test_acc": 0.9455,
+   "seconds": 35.48693729995284,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 116,
+   "achieved": 0.5,
+   "test_acc": 0.952,
+   "seconds": 35.71579589997418,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 117,
+   "achieved": 0.5,
+   "test_acc": 0.949,
+   "seconds": 35.871035099960864,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 118,
+   "achieved": 0.5,
+   "test_acc": 0.95,
+   "seconds": 36.65303569997195,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.5,
+   "seed": 119,
+   "achieved": 0.5,
+   "test_acc": 0.9465,
+   "seconds": 37.7387211000314,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 100,
+   "achieved": 0.75,
+   "test_acc": 0.9425,
+   "seconds": 36.37881190003827,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 101,
+   "achieved": 0.75,
+   "test_acc": 0.9415,
+   "seconds": 35.91727430000901,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 102,
+   "achieved": 0.75,
+   "test_acc": 0.937,
+   "seconds": 34.97329420002643,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 103,
+   "achieved": 0.75,
+   "test_acc": 0.942,
+   "seconds": 34.58692549995612,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 104,
+   "achieved": 0.75,
+   "test_acc": 0.94,
+   "seconds": 37.746937899966724,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 105,
+   "achieved": 0.75,
+   "test_acc": 0.9495,
+   "seconds": 36.95285439991858,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 106,
+   "achieved": 0.75,
+   "test_acc": 0.937,
+   "seconds": 37.98644929996226,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 107,
+   "achieved": 0.75,
+   "test_acc": 0.9415,
+   "seconds": 37.20337250002194,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 108,
+   "achieved": 0.75,
+   "test_acc": 0.936,
+   "seconds": 37.12771059991792,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 109,
+   "achieved": 0.75,
+   "test_acc": 0.9375,
+   "seconds": 37.58353479998186,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 110,
+   "achieved": 0.75,
+   "test_acc": 0.9455,
+   "seconds": 36.72765670006629,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 111,
+   "achieved": 0.75,
+   "test_acc": 0.9415,
+   "seconds": 35.52400730003137,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 112,
+   "achieved": 0.75,
+   "test_acc": 0.9375,
+   "seconds": 36.613563299993984,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 113,
+   "achieved": 0.75,
+   "test_acc": 0.943,
+   "seconds": 37.081619899952784,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 114,
+   "achieved": 0.75,
+   "test_acc": 0.943,
+   "seconds": 35.829172599944286,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 115,
+   "achieved": 0.75,
+   "test_acc": 0.9415,
+   "seconds": 36.522178600076586,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 116,
+   "achieved": 0.75,
+   "test_acc": 0.946,
+   "seconds": 36.50850440002978,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 117,
+   "achieved": 0.75,
+   "test_acc": 0.943,
+   "seconds": 37.309828600031324,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 118,
+   "achieved": 0.75,
+   "test_acc": 0.945,
+   "seconds": 38.11833710002247,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.75,
+   "seed": 119,
+   "achieved": 0.75,
+   "test_acc": 0.9385,
+   "seconds": 38.475449400022626,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 100,
+   "achieved": 0.75,
+   "test_acc": 0.9375,
+   "seconds": 37.99382560001686,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 101,
+   "achieved": 0.75,
+   "test_acc": 0.938,
+   "seconds": 37.824245500029065,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 102,
+   "achieved": 0.75,
+   "test_acc": 0.9365,
+   "seconds": 38.587393799913116,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 103,
+   "achieved": 0.75,
+   "test_acc": 0.9395,
+   "seconds": 39.40818649996072,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 104,
+   "achieved": 0.75,
+   "test_acc": 0.934,
+   "seconds": 40.60714680003002,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 105,
+   "achieved": 0.75,
+   "test_acc": 0.9395,
+   "seconds": 45.37939609994646,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 106,
+   "achieved": 0.75,
+   "test_acc": 0.9375,
+   "seconds": 38.04563170007896,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 107,
+   "achieved": 0.75,
+   "test_acc": 0.9395,
+   "seconds": 40.55142589996103,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 108,
+   "achieved": 0.75,
+   "test_acc": 0.936,
+   "seconds": 41.36288480006624,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 109,
+   "achieved": 0.75,
+   "test_acc": 0.938,
+   "seconds": 42.25361660006456,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 110,
+   "achieved": 0.75,
+   "test_acc": 0.937,
+   "seconds": 39.476845500059426,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 111,
+   "achieved": 0.75,
+   "test_acc": 0.9355,
+   "seconds": 43.48631069995463,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 112,
+   "achieved": 0.75,
+   "test_acc": 0.934,
+   "seconds": 38.73731949995272,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 113,
+   "achieved": 0.75,
+   "test_acc": 0.9345,
+   "seconds": 38.294026499963365,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 114,
+   "achieved": 0.75,
+   "test_acc": 0.937,
+   "seconds": 38.340517699951306,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 115,
+   "achieved": 0.75,
+   "test_acc": 0.933,
+   "seconds": 38.43917020002846,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 116,
+   "achieved": 0.75,
+   "test_acc": 0.9425,
+   "seconds": 38.51531249994878,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 117,
+   "achieved": 0.75,
+   "test_acc": 0.942,
+   "seconds": 37.817175499978475,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 118,
+   "achieved": 0.75,
+   "test_acc": 0.941,
+   "seconds": 37.10887160000857,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.75,
+   "seed": 119,
+   "achieved": 0.75,
+   "test_acc": 0.9345,
+   "seconds": 39.01159300003201,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 100,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.928,
+   "seconds": 37.616611999925226,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 101,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9235,
+   "seconds": 37.73250740009826,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 102,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9235,
+   "seconds": 37.58100280002691,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 103,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9285,
+   "seconds": 38.08825919998344,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 104,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.934,
+   "seconds": 38.233800099929795,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 105,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9235,
+   "seconds": 38.0508466999745,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 106,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9275,
+   "seconds": 38.77890160004608,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 107,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9255,
+   "seconds": 39.03575650008861,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 108,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.925,
+   "seconds": 39.084979399922304,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 109,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9235,
+   "seconds": 39.214503600029275,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 110,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.929,
+   "seconds": 38.83308570005465,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 111,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.927,
+   "seconds": 38.68591080000624,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 112,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9195,
+   "seconds": 38.39064110000618,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 113,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.933,
+   "seconds": 38.602665399899706,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 114,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.926,
+   "seconds": 38.46848050004337,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 115,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9205,
+   "seconds": 39.30671259993687,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 116,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.932,
+   "seconds": 38.75841450004373,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 117,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9335,
+   "seconds": 39.23702450003475,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 118,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.93,
+   "seconds": 38.688672200078145,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.9,
+   "seed": 119,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.926,
+   "seconds": 38.71749539999291,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 100,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9215,
+   "seconds": 39.38972009997815,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 101,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9235,
+   "seconds": 38.45440930000041,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 102,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9245,
+   "seconds": 38.67088640003931,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 103,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.924,
+   "seconds": 39.21532409999054,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 104,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.921,
+   "seconds": 39.09500490000937,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 105,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.926,
+   "seconds": 39.124127299990505,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 106,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9185,
+   "seconds": 38.504605400026776,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 107,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9205,
+   "seconds": 37.49108529998921,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 108,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.924,
+   "seconds": 39.18670449999627,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 109,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9245,
+   "seconds": 39.14034070004709,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 110,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.924,
+   "seconds": 38.493990599992685,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 111,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9255,
+   "seconds": 39.30287630006205,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 112,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9215,
+   "seconds": 38.301172800012864,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 113,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.918,
+   "seconds": 37.18810339993797,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 114,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9205,
+   "seconds": 38.945257999934256,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 115,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9225,
+   "seconds": 41.57497250009328,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 116,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.924,
+   "seconds": 41.25383389997296,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 117,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.928,
+   "seconds": 42.148131099995226,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 118,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.9265,
+   "seconds": 41.328574499930255,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.9,
+   "seed": 119,
+   "achieved": 0.900001967884131,
+   "test_acc": 0.919,
+   "seconds": 40.53556119999848,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 100,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9055,
+   "seconds": 42.612988500040956,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 101,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9075,
+   "seconds": 45.22611169994343,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 102,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.918,
+   "seconds": 47.865473599988036,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 103,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.8915,
+   "seconds": 49.90488639997784,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 104,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.911,
+   "seconds": 47.7176595000783,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 105,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.8975,
+   "seconds": 45.65211500006262,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 106,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9005,
+   "seconds": 42.60493180004414,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 107,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9065,
+   "seconds": 45.60270769998897,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 108,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.903,
+   "seconds": 50.14017159992363,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 109,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.908,
+   "seconds": 50.404236200032756,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 110,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.899,
+   "seconds": 44.9494436000241,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 111,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.898,
+   "seconds": 54.04897100001108,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 112,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.905,
+   "seconds": 44.940026200027205,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 113,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.907,
+   "seconds": 47.70850890001748,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 114,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9005,
+   "seconds": 51.86373560002539,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 115,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9045,
+   "seconds": 43.07064170006197,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 116,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9145,
+   "seconds": 46.845128800021484,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 117,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.906,
+   "seconds": 45.56231810001191,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 118,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9125,
+   "seconds": 45.391006499994546,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "magnitude",
+   "target": 0.95,
+   "seed": 119,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9055,
+   "seconds": 43.73242479993496,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 100,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9105,
+   "seconds": 45.4157516999403,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 101,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.908,
+   "seconds": 43.474232099950314,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 102,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9135,
+   "seconds": 40.31658199999947,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 103,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9065,
+   "seconds": 38.40241600002628,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 104,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.903,
+   "seconds": 40.05536530003883,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 105,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9105,
+   "seconds": 39.98104860004969,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 106,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.911,
+   "seconds": 39.11632400006056,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 107,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9065,
+   "seconds": 40.16363009996712,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 108,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9125,
+   "seconds": 40.468816700042225,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 109,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9175,
+   "seconds": 40.290062699932605,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 110,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.913,
+   "seconds": 40.67725569999311,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 111,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9155,
+   "seconds": 39.18877299991436,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 112,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.909,
+   "seconds": 39.89730439998675,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 113,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9145,
+   "seconds": 40.01342029997613,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 114,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9055,
+   "seconds": 38.70090649998747,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 115,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.91,
+   "seconds": 39.469431299949065,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 116,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.914,
+   "seconds": 28.795698100002483,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 117,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.92,
+   "seconds": 26.06277299998328,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 118,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9105,
+   "seconds": 25.23341139999684,
+   "dataset": "mnist_784 (OpenML)"
+  },
+  {
+   "criterion": "saliency",
+   "target": 0.95,
+   "seed": 119,
+   "achieved": 0.949996064231738,
+   "test_acc": 0.9085,
+   "seconds": 23.949043900007382,
+   "dataset": "mnist_784 (OpenML)"
+  }
+ ]
+}

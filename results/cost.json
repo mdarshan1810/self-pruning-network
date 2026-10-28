@@ -5,8 +5,8 @@
   "dense_params": 4544,
   "sparse_flops": 2326528,
   "dense_flops": 2326528,
-  "sparse_us": 12460.050000227056,
-  "dense_zeros_us": 149.19850043952465
+  "sparse_us": 14953.27249984257,
+  "dense_zeros_us": 153.1839999370277
  },
  {
   "target": 0.5,
@@ -14,8 +14,8 @@
   "dense_params": 4544,
   "sparse_flops": 1163264,
   "dense_flops": 2326528,
-  "sparse_us": 4187.508999602869,
-  "dense_zeros_us": 138.4904998121783
+  "sparse_us": 5553.041500388645,
+  "dense_zeros_us": 159.20749981887639
  },
  {
   "target": 0.75,
@@ -23,8 +23,8 @@
   "dense_params": 4544,
   "sparse_flops": 581632,
   "dense_flops": 2326528,
-  "sparse_us": 2114.014000399038,
-  "dense_zeros_us": 132.25600006990135
+  "sparse_us": 2786.3224997418,
+  "dense_zeros_us": 295.7590000005439
  },
  {
   "target": 0.9,
@@ -32,8 +32,8 @@
   "dense_params": 4544,
   "sparse_flops": 232960,
   "dense_flops": 2326528,
-  "sparse_us": 1278.079500189051,
-  "dense_zeros_us": 181.414500111714
+  "sparse_us": 969.8774997377768,
+  "dense_zeros_us": 151.53499960433692
  },
  {
   "target": 0.95,
@@ -41,7 +41,7 @@
   "dense_params": 4544,
   "sparse_flops": 116224,
   "dense_flops": 2326528,
-  "sparse_us": 268.80100020207465,
-  "dense_zeros_us": 140.69150027353317
+  "sparse_us": 336.9589999783784,
+  "dense_zeros_us": 183.53849998675287
  }
 ]

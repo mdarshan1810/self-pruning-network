@@ -131,10 +131,13 @@ def write_claim(summary):
     for k, v in summary["paired"].items():
         txt += (f"| {float(k)*100:.0f}% | {v['mean_diff']*100:+.2f} | "
                 f"[{v['ci95'][0]*100:+.2f}, {v['ci95'][1]*100:+.2f}] | {v['saliency_wins']}/{v['n']} |\n")
-    txt += ("\n## Exploratory (post-hoc, NOT the pre-specified claim)\n\n"
-            "The largest gap appears at the most extreme level. It was noticed after seeing the data "
-            "and 4 non-trivial levels were compared, so treat it as a hypothesis for replication "
-            "(e.g. on MNIST), not a confirmed result. A confirmed claim needs a fresh set of seeds.\n")
+    txt += ("\n## History and replication\n\n"
+            "- The first run of this sweep (commit d95802d) showed a null at 90%. That run had a bug: "
+            "scores were all zero before the first prune event, so the first cut was arbitrary for both "
+            "criteria. The numbers above are from the fixed code; the 90% level was not re-chosen.\n"
+            "- The 95% gap was first noticed post hoc, so 95% was then fixed as the single confirmatory "
+            "test on MNIST with fresh seeds. See results/MNIST.md for whether it replicated, and note "
+            "that on MNIST the other levels do NOT all favour saliency.\n")
     open("results/CLAIM.md", "w").write(txt)
     return txt
 

@@ -291,21 +291,21 @@
   "target": 0.5,
   "seed": 1,
   "achieved": 0.5,
-  "test_acc": 0.73
+  "test_acc": 0.71
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
   "seed": 2,
   "achieved": 0.5,
-  "test_acc": 0.7166666666666667
+  "test_acc": 0.7066666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
   "seed": 3,
   "achieved": 0.5,
-  "test_acc": 0.7233333333333334
+  "test_acc": 0.7033333333333334
  },
  {
   "criterion": "magnitude",
@@ -319,245 +319,245 @@
   "target": 0.5,
   "seed": 5,
   "achieved": 0.5,
-  "test_acc": 0.77
+  "test_acc": 0.7666666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
   "seed": 6,
   "achieved": 0.5,
-  "test_acc": 0.6866666666666666
+  "test_acc": 0.6733333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
   "seed": 7,
   "achieved": 0.5,
-  "test_acc": 0.7466666666666667
+  "test_acc": 0.7566666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
   "seed": 8,
-  "achieved": 0.5,
-  "test_acc": 0.7466666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 9,
-  "achieved": 0.5,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 10,
-  "achieved": 0.5,
-  "test_acc": 0.6966666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 11,
-  "achieved": 0.5,
-  "test_acc": 0.7433333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 12,
-  "achieved": 0.5,
-  "test_acc": 0.7533333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 13,
-  "achieved": 0.5,
-  "test_acc": 0.7266666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 14,
-  "achieved": 0.5,
-  "test_acc": 0.7933333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 15,
-  "achieved": 0.5,
-  "test_acc": 0.7266666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 16,
-  "achieved": 0.5,
-  "test_acc": 0.7033333333333334
- },
- {
-  "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 17,
   "achieved": 0.5,
   "test_acc": 0.7333333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.5,
-  "seed": 18,
+  "seed": 9,
   "achieved": 0.5,
-  "test_acc": 0.74
+  "test_acc": 0.71
  },
  {
   "criterion": "magnitude",
-  "target": 0.5,
-  "seed": 19,
-  "achieved": 0.5,
-  "test_acc": 0.7166666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 0,
-  "achieved": 0.5,
-  "test_acc": 0.6966666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 1,
-  "achieved": 0.5,
-  "test_acc": 0.7233333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 2,
-  "achieved": 0.5,
-  "test_acc": 0.73
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 3,
-  "achieved": 0.5,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 4,
-  "achieved": 0.5,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 5,
-  "achieved": 0.5,
-  "test_acc": 0.76
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 6,
-  "achieved": 0.5,
-  "test_acc": 0.6566666666666666
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 7,
-  "achieved": 0.5,
-  "test_acc": 0.7533333333333333
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 8,
-  "achieved": 0.5,
-  "test_acc": 0.7533333333333333
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 9,
-  "achieved": 0.5,
-  "test_acc": 0.7033333333333334
- },
- {
-  "criterion": "saliency",
   "target": 0.5,
   "seed": 10,
   "achieved": 0.5,
   "test_acc": 0.7066666666666667
  },
  {
-  "criterion": "saliency",
+  "criterion": "magnitude",
   "target": 0.5,
   "seed": 11,
+  "achieved": 0.5,
+  "test_acc": 0.75
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 12,
+  "achieved": 0.5,
+  "test_acc": 0.7366666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 13,
   "achieved": 0.5,
   "test_acc": 0.72
  },
  {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 12,
-  "achieved": 0.5,
-  "test_acc": 0.7266666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.5,
-  "seed": 13,
-  "achieved": 0.5,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "saliency",
+  "criterion": "magnitude",
   "target": 0.5,
   "seed": 14,
   "achieved": 0.5,
   "test_acc": 0.7866666666666666
  },
  {
-  "criterion": "saliency",
+  "criterion": "magnitude",
   "target": 0.5,
   "seed": 15,
+  "achieved": 0.5,
+  "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 16,
+  "achieved": 0.5,
+  "test_acc": 0.6933333333333334
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 17,
+  "achieved": 0.5,
+  "test_acc": 0.75
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 18,
+  "achieved": 0.5,
+  "test_acc": 0.75
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.5,
+  "seed": 19,
+  "achieved": 0.5,
+  "test_acc": 0.7033333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 0,
+  "achieved": 0.5,
+  "test_acc": 0.69
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 1,
+  "achieved": 0.5,
+  "test_acc": 0.7166666666666667
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 2,
+  "achieved": 0.5,
+  "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 3,
   "achieved": 0.5,
   "test_acc": 0.73
  },
  {
   "criterion": "saliency",
   "target": 0.5,
-  "seed": 16,
+  "seed": 4,
   "achieved": 0.5,
-  "test_acc": 0.7066666666666667
+  "test_acc": 0.73
  },
  {
   "criterion": "saliency",
   "target": 0.5,
-  "seed": 17,
+  "seed": 5,
   "achieved": 0.5,
-  "test_acc": 0.7366666666666667
+  "test_acc": 0.7733333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.5,
-  "seed": 18,
+  "seed": 6,
+  "achieved": 0.5,
+  "test_acc": 0.68
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 7,
+  "achieved": 0.5,
+  "test_acc": 0.75
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 8,
+  "achieved": 0.5,
+  "test_acc": 0.74
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 9,
+  "achieved": 0.5,
+  "test_acc": 0.6966666666666667
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 10,
+  "achieved": 0.5,
+  "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 11,
   "achieved": 0.5,
   "test_acc": 0.7266666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.5,
+  "seed": 12,
+  "achieved": 0.5,
+  "test_acc": 0.7433333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 13,
+  "achieved": 0.5,
+  "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 14,
+  "achieved": 0.5,
+  "test_acc": 0.7933333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 15,
+  "achieved": 0.5,
+  "test_acc": 0.7366666666666667
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 16,
+  "achieved": 0.5,
+  "test_acc": 0.6866666666666666
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 17,
+  "achieved": 0.5,
+  "test_acc": 0.7433333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
+  "seed": 18,
+  "achieved": 0.5,
+  "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.5,
   "seed": 19,
   "achieved": 0.5,
-  "test_acc": 0.7066666666666667
+  "test_acc": 0.7133333333333334
  },
  {
   "criterion": "magnitude",
@@ -571,112 +571,112 @@
   "target": 0.75,
   "seed": 1,
   "achieved": 0.75,
-  "test_acc": 0.7433333333333333
+  "test_acc": 0.73
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 2,
   "achieved": 0.75,
-  "test_acc": 0.7333333333333333
+  "test_acc": 0.7266666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 3,
   "achieved": 0.75,
-  "test_acc": 0.7266666666666667
+  "test_acc": 0.7333333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 4,
   "achieved": 0.75,
-  "test_acc": 0.7366666666666667
+  "test_acc": 0.7133333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 5,
   "achieved": 0.75,
-  "test_acc": 0.7766666666666666
+  "test_acc": 0.77
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 6,
   "achieved": 0.75,
-  "test_acc": 0.6866666666666666
+  "test_acc": 0.6833333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 7,
   "achieved": 0.75,
-  "test_acc": 0.75
+  "test_acc": 0.7533333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 8,
   "achieved": 0.75,
-  "test_acc": 0.7133333333333334
+  "test_acc": 0.7166666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 9,
   "achieved": 0.75,
-  "test_acc": 0.6966666666666667
+  "test_acc": 0.7033333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 10,
   "achieved": 0.75,
-  "test_acc": 0.7266666666666667
+  "test_acc": 0.73
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 11,
   "achieved": 0.75,
-  "test_acc": 0.7433333333333333
+  "test_acc": 0.73
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 12,
   "achieved": 0.75,
-  "test_acc": 0.7666666666666667
+  "test_acc": 0.7366666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 13,
   "achieved": 0.75,
-  "test_acc": 0.7233333333333334
+  "test_acc": 0.7066666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 14,
   "achieved": 0.75,
-  "test_acc": 0.8066666666666666
+  "test_acc": 0.79
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 15,
   "achieved": 0.75,
-  "test_acc": 0.7
+  "test_acc": 0.7133333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 16,
   "achieved": 0.75,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.6966666666666667
  },
  {
   "criterion": "magnitude",
@@ -690,427 +690,427 @@
   "target": 0.75,
   "seed": 18,
   "achieved": 0.75,
-  "test_acc": 0.7433333333333333
+  "test_acc": 0.74
  },
  {
   "criterion": "magnitude",
   "target": 0.75,
   "seed": 19,
-  "achieved": 0.75,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 0,
-  "achieved": 0.75,
-  "test_acc": 0.7066666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 1,
-  "achieved": 0.75,
-  "test_acc": 0.7233333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 2,
-  "achieved": 0.75,
-  "test_acc": 0.7033333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 3,
-  "achieved": 0.75,
-  "test_acc": 0.73
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 4,
-  "achieved": 0.75,
-  "test_acc": 0.7333333333333333
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 5,
-  "achieved": 0.75,
-  "test_acc": 0.76
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 6,
-  "achieved": 0.75,
-  "test_acc": 0.6933333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 7,
-  "achieved": 0.75,
-  "test_acc": 0.7633333333333333
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 8,
-  "achieved": 0.75,
-  "test_acc": 0.75
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 9,
-  "achieved": 0.75,
-  "test_acc": 0.7133333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 10,
   "achieved": 0.75,
   "test_acc": 0.7166666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.75,
-  "seed": 11,
-  "achieved": 0.75,
-  "test_acc": 0.7266666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 12,
-  "achieved": 0.75,
-  "test_acc": 0.7366666666666667
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 13,
-  "achieved": 0.75,
-  "test_acc": 0.7233333333333334
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 14,
-  "achieved": 0.75,
-  "test_acc": 0.8033333333333333
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 15,
+  "seed": 0,
   "achieved": 0.75,
   "test_acc": 0.7066666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.75,
-  "seed": 16,
-  "achieved": 0.75,
-  "test_acc": 0.71
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 17,
-  "achieved": 0.75,
-  "test_acc": 0.74
- },
- {
-  "criterion": "saliency",
-  "target": 0.75,
-  "seed": 18,
+  "seed": 1,
   "achieved": 0.75,
   "test_acc": 0.7366666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.75,
-  "seed": 19,
+  "seed": 2,
+  "achieved": 0.75,
+  "test_acc": 0.71
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 3,
+  "achieved": 0.75,
+  "test_acc": 0.7333333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 4,
+  "achieved": 0.75,
+  "test_acc": 0.7333333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 5,
+  "achieved": 0.75,
+  "test_acc": 0.78
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 6,
+  "achieved": 0.75,
+  "test_acc": 0.6833333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 7,
+  "achieved": 0.75,
+  "test_acc": 0.7566666666666667
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 8,
+  "achieved": 0.75,
+  "test_acc": 0.7533333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 9,
+  "achieved": 0.75,
+  "test_acc": 0.71
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 10,
   "achieved": 0.75,
   "test_acc": 0.7233333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 11,
+  "achieved": 0.75,
+  "test_acc": 0.72
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 12,
+  "achieved": 0.75,
+  "test_acc": 0.7433333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 13,
+  "achieved": 0.75,
+  "test_acc": 0.72
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 14,
+  "achieved": 0.75,
+  "test_acc": 0.7866666666666666
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 15,
+  "achieved": 0.75,
+  "test_acc": 0.7133333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 16,
+  "achieved": 0.75,
+  "test_acc": 0.7133333333333334
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 17,
+  "achieved": 0.75,
+  "test_acc": 0.7333333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 18,
+  "achieved": 0.75,
+  "test_acc": 0.7433333333333333
+ },
+ {
+  "criterion": "saliency",
+  "target": 0.75,
+  "seed": 19,
+  "achieved": 0.75,
+  "test_acc": 0.73
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 0,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.71
+  "test_acc": 0.7233333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 1,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7266666666666667
+  "test_acc": 0.71
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 2,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.68
+  "test_acc": 0.7233333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 3,
-  "achieved": 0.8998679577464789,
-  "test_acc": 0.6866666666666666
- },
- {
-  "criterion": "magnitude",
-  "target": 0.9,
-  "seed": 4,
-  "achieved": 0.8998679577464789,
-  "test_acc": 0.74
- },
- {
-  "criterion": "magnitude",
-  "target": 0.9,
-  "seed": 5,
-  "achieved": 0.8998679577464789,
-  "test_acc": 0.7433333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.9,
-  "seed": 6,
   "achieved": 0.8998679577464789,
   "test_acc": 0.6666666666666666
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
+  "seed": 4,
+  "achieved": 0.8998679577464789,
+  "test_acc": 0.71
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.9,
+  "seed": 5,
+  "achieved": 0.8998679577464789,
+  "test_acc": 0.75
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.9,
+  "seed": 6,
+  "achieved": 0.8998679577464789,
+  "test_acc": 0.68
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.9,
   "seed": 7,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.7233333333333334
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 8,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7233333333333334
+  "test_acc": 0.7433333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 9,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.6833333333333333
+  "test_acc": 0.6766666666666666
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 10,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7266666666666667
+  "test_acc": 0.6966666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 11,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7233333333333334
+  "test_acc": 0.73
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 12,
+  "achieved": 0.8998679577464789,
+  "test_acc": 0.7166666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.9,
+  "seed": 13,
   "achieved": 0.8998679577464789,
   "test_acc": 0.7333333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
-  "seed": 13,
-  "achieved": 0.8998679577464789,
-  "test_acc": 0.7433333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.9,
   "seed": 14,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7533333333333333
+  "test_acc": 0.75
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 15,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7066666666666667
+  "test_acc": 0.69
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 16,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.6866666666666666
+  "test_acc": 0.6766666666666666
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 17,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7566666666666667
+  "test_acc": 0.7366666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 18,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.69
  },
  {
   "criterion": "magnitude",
   "target": 0.9,
   "seed": 19,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7
+  "test_acc": 0.6566666666666666
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 0,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7366666666666667
+  "test_acc": 0.7033333333333334
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 1,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.7333333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 2,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.6966666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 3,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.72
+  "test_acc": 0.7266666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 4,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7366666666666667
+  "test_acc": 0.74
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 5,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7366666666666667
+  "test_acc": 0.7566666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 6,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.69
+  "test_acc": 0.6766666666666666
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 7,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7533333333333333
+  "test_acc": 0.73
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 8,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.74
+  "test_acc": 0.7466666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 9,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7066666666666667
+  "test_acc": 0.7033333333333334
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 10,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7233333333333334
+  "test_acc": 0.72
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 11,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.74
+  "test_acc": 0.7166666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 12,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.7433333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 13,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.6533333333333333
+  "test_acc": 0.7466666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 14,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7433333333333333
+  "test_acc": 0.79
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 15,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.6766666666666666
+  "test_acc": 0.7
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 16,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.6866666666666666
+  "test_acc": 0.69
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 17,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.7
+  "test_acc": 0.74
  },
  {
   "criterion": "saliency",
   "target": 0.9,
   "seed": 18,
   "achieved": 0.8998679577464789,
-  "test_acc": 0.73
+  "test_acc": 0.72
  },
  {
   "criterion": "saliency",
@@ -1124,196 +1124,196 @@
   "target": 0.95,
   "seed": 0,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5533333333333333
+  "test_acc": 0.41
  },
  {
   "criterion": "magnitude",
   "target": 0.95,
   "seed": 1,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5233333333333333
+  "test_acc": 0.6166666666666667
  },
  {
   "criterion": "magnitude",
   "target": 0.95,
   "seed": 2,
   "achieved": 0.950044014084507,
-  "test_acc": 0.41333333333333333
+  "test_acc": 0.38666666666666666
  },
  {
   "criterion": "magnitude",
   "target": 0.95,
   "seed": 3,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.56
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 4,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.6333333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 5,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.6633333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 6,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.4666666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 7,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.49666666666666665
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 8,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.42333333333333334
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 9,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.4866666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 10,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5333333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 11,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5666666666666667
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 12,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5333333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 13,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.51
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 14,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.35333333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 15,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5233333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 16,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5033333333333333
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 17,
-  "achieved": 0.950044014084507,
-  "test_acc": 0.5933333333333334
- },
- {
-  "criterion": "magnitude",
-  "target": 0.95,
-  "seed": 18,
   "achieved": 0.950044014084507,
   "test_acc": 0.5133333333333333
  },
  {
   "criterion": "magnitude",
   "target": 0.95,
+  "seed": 4,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.6433333333333333
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 5,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.7166666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 6,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.43666666666666665
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 7,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5733333333333334
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 8,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.68
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 9,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5066666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 10,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5066666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 11,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5066666666666667
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 12,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.67
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 13,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.56
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 14,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5533333333333333
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 15,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5333333333333333
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 16,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.5366666666666666
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 17,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.52
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
+  "seed": 18,
+  "achieved": 0.950044014084507,
+  "test_acc": 0.38666666666666666
+ },
+ {
+  "criterion": "magnitude",
+  "target": 0.95,
   "seed": 19,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5866666666666667
+  "test_acc": 0.49333333333333335
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 0,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5833333333333334
+  "test_acc": 0.5433333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 1,
   "achieved": 0.950044014084507,
-  "test_acc": 0.57
+  "test_acc": 0.7133333333333334
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 2,
   "achieved": 0.950044014084507,
-  "test_acc": 0.52
+  "test_acc": 0.64
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 3,
   "achieved": 0.950044014084507,
-  "test_acc": 0.6866666666666666
+  "test_acc": 0.6333333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 4,
   "achieved": 0.950044014084507,
-  "test_acc": 0.7066666666666667
+  "test_acc": 0.5833333333333334
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 5,
   "achieved": 0.950044014084507,
-  "test_acc": 0.6033333333333334
+  "test_acc": 0.5466666666666666
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 6,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5566666666666666
+  "test_acc": 0.6566666666666666
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 7,
   "achieved": 0.950044014084507,
-  "test_acc": 0.6533333333333333
+  "test_acc": 0.73
  },
  {
   "criterion": "saliency",
@@ -1327,76 +1327,76 @@
   "target": 0.95,
   "seed": 9,
   "achieved": 0.950044014084507,
-  "test_acc": 0.62
+  "test_acc": 0.6833333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 10,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5066666666666667
+  "test_acc": 0.5966666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 11,
   "achieved": 0.950044014084507,
-  "test_acc": 0.7033333333333334
+  "test_acc": 0.7166666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 12,
   "achieved": 0.950044014084507,
-  "test_acc": 0.49666666666666665
+  "test_acc": 0.4866666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 13,
   "achieved": 0.950044014084507,
-  "test_acc": 0.74
+  "test_acc": 0.5633333333333334
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 14,
   "achieved": 0.950044014084507,
-  "test_acc": 0.67
+  "test_acc": 0.5766666666666667
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 15,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5966666666666667
+  "test_acc": 0.6233333333333333
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 16,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5666666666666667
+  "test_acc": 0.58
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 17,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5
+  "test_acc": 0.62
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 18,
   "achieved": 0.950044014084507,
-  "test_acc": 0.6033333333333334
+  "test_acc": 0.5366666666666666
  },
  {
   "criterion": "saliency",
   "target": 0.95,
   "seed": 19,
   "achieved": 0.950044014084507,
-  "test_acc": 0.5833333333333334
+  "test_acc": 0.68
  }
 ]

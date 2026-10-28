@@ -1,8 +1,8 @@
 # Falsifiable claim (generated from results/summary.json)
 
-At 90.0% achieved sparsity on 5-arm noisy spirals (20 seeds, 60 epochs, 64x64 MLP), saliency pruning reaches 71.4% +/- 2.6% test accuracy versus 71.5% +/- 2.6% for magnitude pruning (mean paired difference -0.1 pts, 95% bootstrap CI [-1.6, +1.2], saliency better on 9/20 seeds).
+At 90.0% achieved sparsity on 5-arm noisy spirals (20 seeds, 60 epochs, 64x64 MLP), saliency pruning reaches 72.4% +/- 2.7% test accuracy versus 70.9% +/- 2.8% for magnitude pruning (mean paired difference +1.5 pts, 95% bootstrap CI [+0.5, +2.4], saliency better on 16/20 seeds).
 
-The 95% CI includes 0, so this experiment does NOT show a reliable difference.
+The 95% CI excludes 0, so the difference is distinguishable from seed noise.
 
 The 90% level was fixed as the primary comparison BEFORE running the sweep.
 
@@ -11,11 +11,12 @@ The 90% level was fixed as the primary comparison BEFORE running the sweep.
 | target sparsity | mean diff (pts) | 95% CI | saliency better |
 |---|---|---|---|
 | 0% | +0.00 | [+0.00, +0.00] | 0/20 |
-| 50% | -0.67 | [-1.22, -0.12] | 8/20 |
-| 75% | -0.38 | [-1.12, +0.38] | 8/20 |
-| 90% | -0.10 | [-1.60, +1.23] | 9/20 |
-| 95% | +8.35 | [+4.13, +12.78] | 15/20 |
+| 50% | +0.17 | [-0.40, +0.73] | 12/20 |
+| 75% | +0.27 | [-0.38, +0.90] | 11/20 |
+| 90% | +1.45 | [+0.55, +2.35] | 16/20 |
+| 95% | +8.00 | [+2.67, +12.87] | 16/20 |
 
-## Exploratory (post-hoc, NOT the pre-specified claim)
+## History and replication
 
-The largest gap appears at the most extreme level. It was noticed after seeing the data and 4 non-trivial levels were compared, so treat it as a hypothesis for replication (e.g. on MNIST), not a confirmed result. A confirmed claim needs a fresh set of seeds.
+- The first run of this sweep (commit d95802d) showed a null at 90%. That run had a bug: scores were all zero before the first prune event, so the first cut was arbitrary for both criteria. The numbers above are from the fixed code; the 90% level was not re-chosen.
+- The 95% gap was first noticed post hoc, so 95% was then fixed as the single confirmatory test on MNIST with fresh seeds. See results/MNIST.md for whether it replicated, and note that on MNIST the other levels do NOT all favour saliency.
