@@ -1,4 +1,4 @@
-# DESIGN
+# Design
 
 Everything below refers to code in this repo and numbers in `results/`. Where a
 claim is not backed by a committed experiment, it says so.
@@ -37,7 +37,7 @@ Limits of the estimate (honest caveats):
 
 Empirical status (20 paired seeds per dataset, paired 95% bootstrap CIs):
 
-| sparsity | spirals (`results/CLAIM.md`) | MNIST 10k subset (`results/MNIST.md`) |
+| Sparsity | Spirals (`results/CLAIM.md`) | MNIST 10k subset (`results/MNIST.md`) |
 |---|---|---|
 | 50% | +0.17 [-0.40, +0.73] | +0.10 [-0.01, +0.20] |
 | 75% | +0.27 [-0.38, +0.90] | **-0.41 [-0.55, -0.28]** |

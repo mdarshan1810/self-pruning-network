@@ -166,9 +166,11 @@ test accuracy versus {mag['mean']*100:.2f}% +/- {mag['std']*100:.2f}% for magnit
 
 {verdict}
 
-## All levels (secondary; not corrected for multiple comparisons)
+## All levels
 
-| target sparsity | achieved | magnitude acc | saliency acc | mean diff (pts) | 95% CI | saliency better |
+Secondary results, not corrected for multiple comparisons.
+
+| Target sparsity | Achieved | Magnitude acc | Saliency acc | Mean diff (pts) | 95% CI | Saliency better |
 |---|---|---|---|---|---|---|
 """
     for s in SPARSITIES:

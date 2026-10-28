@@ -1,4 +1,4 @@
-# Self-Pruning Network (NumPy only)
+# Self-Pruning Network
 
 A reverse-mode autodiff engine written from scratch in NumPy, and an MLP that prunes its own
 connections while it trains: it decides which weights matter, removes the rest to a hard sparsity
@@ -12,7 +12,7 @@ budget, and reports what that cost and saved.
 
 ## TL;DR
 
-| | |
+| Area | Summary |
 |---|---|
 | **Engine** | Tensor graph + topological `backward()`, 18 finite-difference gradient checks |
 | **The trap** | A masked weight's gradient is 0, but Adam's moments are not. The optimizer clears state on every mask change, so pruned weights stay exactly 0 and revived weights restart cleanly. Tests fail if this is broken. |
@@ -105,8 +105,8 @@ nor explode with depth.
   and nothing is tuned per criterion.
 - **Paired seeds.** The same seed gives the same data, init and batch order for both criteria, so
   each seed yields one paired difference.
-- **Statistics.** I report the mean paired difference with a percentile bootstrap 95% CI over 20
-  seeds.
+- **Statistics.** Each comparison reports the mean paired difference with a percentile bootstrap
+  95% CI over 20 seeds.
 - **Pre-specified tests.** The primary comparison (90%, spirals) was fixed before the sweep. The
   95% gap was noticed after the fact, so it was fixed in advance as the single confirmatory test
   on MNIST, with fresh seeds (100-119).
@@ -120,7 +120,7 @@ nor explode with depth.
 
 Mean test accuracy (%) over 20 seeds.
 
-| sparsity | spirals magnitude | spirals saliency | MNIST magnitude | MNIST saliency |
+| Sparsity | Spirals magnitude | Spirals saliency | MNIST magnitude | MNIST saliency |
 |---|---|---|---|---|
 | 0% (dense) | 72.2 | 72.2 | 95.0 | 95.0 |
 | 50% | 72.5 | 72.7 | 94.5 | 94.6 |

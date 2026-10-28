@@ -27,9 +27,11 @@ test accuracy versus 90.51% +/- 0.63% for magnitude (mean paired difference
 
 **Replicated.** The 95% CI excludes 0 in the same direction as on spirals (saliency > magnitude).
 
-## All levels (secondary; not corrected for multiple comparisons)
+## All levels
 
-| target sparsity | achieved | magnitude acc | saliency acc | mean diff (pts) | 95% CI | saliency better |
+Secondary results, not corrected for multiple comparisons.
+
+| Target sparsity | Achieved | Magnitude acc | Saliency acc | Mean diff (pts) | 95% CI | Saliency better |
 |---|---|---|---|---|---|---|
 | 0% | 0.0% | 94.96 +/- 0.29 | 94.96 +/- 0.29 | +0.00 | [+0.00, +0.00] | 0/20 |
 | 50% | 50.0% | 94.51 +/- 0.31 | 94.61 +/- 0.28 | +0.10 | [-0.01, +0.20] | 14/20 |
